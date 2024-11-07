@@ -27,7 +27,7 @@ const Login = () => {
         backgroundRepeat: 'no-repeat',
       }}>
         <h2 className='fonty1 p-3 text-[30px] absolute left-0 top-0'>To Do<span className='text-[#a06cd5]'>IT.</span></h2>
-      <div className='bg-[#ffffff50] backdrop-blur-md w-[70vw] md:w-[30%] h-2/3 md:h-[28rem] rounded-2xl border-2 border-white'>
+      <div className='bg-[#ffffff50] backdrop-blur-md w-[70vw] md:w-[30%] h-[23rem] md:h-[28rem] rounded-2xl border-2 border-white'>
       
       <h2 className='fonty2 mt-8 text-[24px] font-extrabold'>User Log<span className='text-[#a06cd5]'>in</span></h2>
       <div className='flex justify-center'>
