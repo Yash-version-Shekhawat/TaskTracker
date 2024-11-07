@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background: #ffffff;
+    color: #333;
+  }
+  .fonty1{
+    font-family: "Paytone One", sans-serif;
+  }
+  .fonty2{
+    font-family: "Montserrat", sans-serif;
+  }
+  .loginback{
+    background: radial-gradient(circle, 
+            #fbe4ff 20%,  /* Center color */
+            #d7c8f3 40%,  /* Second color */
+            #d0bef2 60%,  /* Third color */
+            #c0a7eb 80%,  /* Fourth color */
+            #b28dff 100%  /* Edge color */
+          );
+  }
