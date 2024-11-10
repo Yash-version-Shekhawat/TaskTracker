@@ -38,7 +38,7 @@ const TaskList = ({ tasks, onUpdateTask, onDeleteTask }) => {
         {tasks.map((task) => (
           <div
             key={task.id}
-            className="task-card w-[32.4%] p-3 rounded-xl"
+            className="task-card w-[100%] md:w-[32.4%] p-3 rounded-xl"
             style={{ backgroundColor: getBackgroundColor(task.status) }} 
           >
             <h4 className="fonty2 font-bold">{task.title}</h4>
