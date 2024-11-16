@@ -100,7 +100,7 @@ const Dashboard = () => {
         <label>
           <span className='fonty2 font-medium '>Status :</span>
           <select className='fonty2 p-2 rounded-md mx-2 w-[23.5%] md:w-auto' name="status" value={filters.status} onChange={handleFilterChange}>
-            <option value="">All</option>
+            <option value="All">All</option>
             <option value="To Do" className='bg-[#ffadad]'>To Do</option>
             <option value="In Progress" className='bg-[#ffd6a5]'>In Progress</option>
             <option value="Completed" className='bg-[#caffbf]'>Completed</option>
